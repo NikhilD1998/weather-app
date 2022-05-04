@@ -1,11 +1,12 @@
-import './App.css'
-import Weather from './components/weather/Weather';
+import "./App.css";
+import BackgroundCard from "./components/UI/BackgroundCard";
+import Weather from "./components/weather/Weather";
 
 function App() {
   return (
-    <body>
-      <Weather/>
-    </body>
+    <BackgroundCard>
+      <Weather />
+    </BackgroundCard>
   );
 }
 
