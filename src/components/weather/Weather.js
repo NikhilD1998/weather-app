@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const Weather = () => {
-  const [description, setDescription] = useState("");
+const Weather = (props) => {
+  const [description, setDescription] = useState('');
   const [temperature, setTemperature] = useState('')
 
   useEffect(() => {
